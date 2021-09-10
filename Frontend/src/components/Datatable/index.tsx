@@ -7,7 +7,7 @@ const Datatable = () =>  {
                 <th>Date</th>
                 <th>Dealer</th>
                 <th>Visited Clients</th>
-                <th>Saled Deals</th>
+                <th>Sealed Deals</th>
                 <th>Value</th>
             </tr>
         </thead>
