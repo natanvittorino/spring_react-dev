@@ -1,9 +1,20 @@
-function App() {
-  return (
-    <div>
-      <h1 className="text-primary">Hello World</h1>      
-    </div>
-  );
-}
+  import Footer from "components/Footer";
+import Navbar from "components/Navbar";
+import Datatable from "components/Datatable";
 
-export default App;
+  function App() {
+    return (
+      <>
+      <Navbar />
+      <div className="container">
+        <h1 className="text-primary">Hello World</h1> 
+        
+        <Datatable />     
+      </div>
+      
+      <Footer/>
+      </>
+    );
+  }
+
+  export default App;
